@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "itemlock",
+	"version": "${version}",
+	"name": "Item Lock",
+	"description": "Kunci slot hotbar supaya item di dalamnya tidak sengaja terbuang. Mod client-only: jalan di server mana pun.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.itemlock.client.ItemLockClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "itemlock.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

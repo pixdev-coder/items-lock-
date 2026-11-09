@@ -1,0 +1,8 @@
+{
+	"key.category.itemlock.main": "Item Lock",
+	"key.itemlock.toggle": "Kunci / buka kunci slot hotbar yang dipilih",
+	"message.itemlock.locked": "Slot %s dikunci (%s)",
+	"message.itemlock.unlocked": "Kunci slot %s dibuka",
+	"message.itemlock.nothing_held": "Tidak ada item di tangan untuk dikunci",
+	"message.itemlock.blocked": "Slot %s terkunci. Tekan tombol Item Lock untuk membukanya."
+}

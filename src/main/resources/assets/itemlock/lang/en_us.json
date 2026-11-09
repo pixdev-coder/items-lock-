@@ -1,0 +1,8 @@
+{
+	"key.category.itemlock.main": "Item Lock",
+	"key.itemlock.toggle": "Lock / unlock selected hotbar slot",
+	"message.itemlock.locked": "Slot %s locked (%s)",
+	"message.itemlock.unlocked": "Slot %s unlocked",
+	"message.itemlock.nothing_held": "Nothing in your hand to lock",
+	"message.itemlock.blocked": "Slot %s is locked. Press the Item Lock key to unlock it."
+}
